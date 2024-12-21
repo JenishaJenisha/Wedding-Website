@@ -1,0 +1,27 @@
+.name-container {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .animated-name {
+    font-size: 50px;
+    color: #333;
+    font-family: 'Pacifico', cursive;
+    animation: fadeIn 3s ease-in-out infinite;
+  }
+  
+  .marriage-date {
+    font-size: 24px;
+    color: #777;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @keyframes fadeIn {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

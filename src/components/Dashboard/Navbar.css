@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #884d8acc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .navbar ul li {
+    font-size: 1rem;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .navbar ul li a:hover {
+    color: #ebebf0;
+    text-decoration: underline;
+  }
+  

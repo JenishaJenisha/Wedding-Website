@@ -1,0 +1,11 @@
+.grid-content .dragdroppable-row:nth-of-type(1) .dragdroppable-column:nth-of-type(1) .dashboard-component-chart-holder {
+    background-color: #f3710e;
+}
+ .grid-content .dragdroppable-row:nth-of-type(1) .dragdroppable-column:nth-of-type(1) .dashboard-component-chart-holder a{
+     color: var(--inverted-text-color) !important;
+ }
+
+ .grid-content .dragdroppable-row:nth-of-type(1) .dragdroppable-column:nth-of-type(1) .dashboard-chart {
+   background-color: rgb(255,255,255,.66);
+   border-radius:4px;
+ }
